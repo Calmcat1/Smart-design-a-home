@@ -1,0 +1,68 @@
+.custom-nav-bg-color{
+  border-bottom: 1px black solid;
+}
+
+.custom-white-jumbo-bgcolor{
+  background-color: white;
+}
+
+.bg-black{
+  color: white;
+  background-color: black;
+}
+
+
+/* custom slide colors */
+.solid-color-slide1,.solid-color-slide2,.solid-color-slide3{
+  height: 300px;
+}
+
+.solid-color-slide1{
+  background: rgb(208,11,255);
+  background: linear-gradient(90deg, rgba(208,11,255,1) 0%, rgba(127,0,255,1) 100%);
+  
+}
+
+.solid-color-slide2{
+  background: rgb(11,93,255);
+  background: linear-gradient(90deg, rgba(11,93,255,1) 0%, rgba(0,180,255,1) 100%);
+}
+
+.solid-color-slide3{
+  background: rgb(255,11,72);
+  background: linear-gradient(90deg, rgba(255,11,72,1) 0%, rgba(255,0,235,1) 100%);
+}
+
+/*custom button styling*/
+.custom-btn-style,.custom-btn-style-light-ver{
+  border-radius: 0;
+  color: white;
+  background-color: transparent;
+  border: 1px white solid;
+  transition: 0.4s background-color, 0.4s color;
+}
+
+.custom-btn-style:hover{
+  background-color: white;
+  color: black;
+
+}
+
+.custom-btn-style:active{
+  opacity: 0.6;
+
+}
+
+/* light version of the fireworks*/
+.custom-btn-style-light-ver{
+  color: black;
+  border: 1px black solid;
+}
+
+.custom-btn-style-light-ver:hover{
+  background-color: black;
+  color: white;
+
+}
+
+
