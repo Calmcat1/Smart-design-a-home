@@ -1,14 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+
+body{
+  background-color: #13265C;
+}
+
 .custom-nav-bg-color{
   border-bottom: 1px black solid;
+  background-color: white;
 }
 
 .custom-white-jumbo-bgcolor{
   background-color: white;
+  border-radius: 0;
 }
 
 .bg-black{
   color: white;
   background-color: black;
+}
+
+.top-bar{
+  height: 20px;
+  background-color: black;
+  color: white;
+
+}
+
+.roboto-font{
+  font-family: Roboto;
 }
 
 
